@@ -1,0 +1,64 @@
+body{margin: 0;
+background-image:url(image/f.jpg);
+}
+/*this is the body of contact section*/
+ul{display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;}
+/*this is the ul section */
+ ul li{margin: 0.5%; 
+	padding: 1%;
+	font-size: 20px;
+	background-color:none ;
+	width: 100%;
+	color: red;}
+/*this is the ul li section*/
+ ul li a{
+	display: block;
+    font-size: 20px;
+     width:100%;
+     text-align: center;
+     }
+/*this the main section of ul where all content is at*/
+ ul li:hover{background: blue;}
+
+section {display: flex;
+	flex-direction: column;
+	color: blue;
+    font-size: 20px;
+	}
+/* this is the main section of my page where all the forms lies*/
+section img{
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-bottom:2%;
+	height: 300px;
+}
+/*this is the image of my location*/
+h1{
+	font-size: 20px;
+	color: red;
+}
+/*this is the header of image*/
+footer{padding:4%;
+	background: none;
+	margin-top:0.5%;
+	border-radius: 0px 0px 25px 25px;
+	text-align: center;
+	color: red;
+	font-size: 50px;}
+/*This is the footer section*/
+
+/*this is the responsive section*/
+@media screen and (max-width: 600px){
+	ul{flex-direction: column;}
+	ul li{width: 96%;margin: 1%;padding: 1%;}
+	section div{flex-direction: column;}
+	section div:first-child{width: 96%;margin: 1%;padding: 1%;}
+	section div:nth-child(2){width: 96%;margin: 1%;padding: 1%;}
+
+	header div{flex-direction: column;}
+}

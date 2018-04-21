@@ -1,0 +1,61 @@
+body{margin: 0;
+background-image:url(image/f.jpg);background-size: 100%;
+}
+/*this is the main body*/
+
+ul{display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;}
+/*this is the ul part*/
+
+ ul li{margin: 0.5%; 
+  padding: 1%;
+  font-size: 20px;
+  background-color:none ;
+  width: 100%;
+  color: red; text-align: center;}
+/*this is the ul li part*/
+
+ ul li a{
+  display: block;
+    font-size: 20px;
+     width:100%;
+     text-align: center;
+     }
+/*this is the ul li a part where all part lies*/
+
+ ul li:hover{background: blue;}
+/*whenever pointer is at ul li section color changes*/
+
+ section{
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  text-decoration: none;
+ }
+/*this is the section part*/
+
+ section a:hover{
+  background: blue;
+ }
+ /*whenever pointer is at section color changes*/
+ 
+footer{padding:4%;
+  background: none;
+  margin-top:0.5%;
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: red;
+  font-size: 50px;}
+/*this is the footer*/
+
+/*this the the codes to make responsive*/
+@media screen and (max-width: 600px){
+   ul{flex-direction: column;}
+   ul li{width: 96%;margin: 1%;padding: 1%;}
+  section {
+    font-size: 20px;
+  }
+  header div{flex-direction: column;}
+}

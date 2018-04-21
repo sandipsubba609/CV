@@ -1,0 +1,66 @@
+body{margin: 0;
+background-image:url(image/f.jpg);
+}/* this is the main part of the web page it includes my backgroung image*/
+/*thisis the ul section*/
+ul{display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;}
+/*this is the ul li secton*/
+ul li{margin: 0.5%;
+	padding: 1%;
+	font-size: 20px;
+	background-color:none ;
+ 	width: 100%;
+	color: red;}
+/*this is the main section */
+ul li a{
+	display: block;
+	font-size: 20px;
+    width:100%;
+    text-align: center;}
+/*this is the hover section when hover on th ul li section*/
+ul li:hover{background: blue;}
+
+section {}
+/*this is the main section where entire passage is put*/
+h1{
+	color:red;
+	font-size: 50px;
+	text-align: center;
+}
+h2{
+	size:30px;
+	font-size: 30px;
+	color: blue;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2%;
+}
+h3{
+	size:30px;
+	font-size: 30px;
+	color: blue;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2%;
+}
+/*this is the footer section*/
+footer{padding:4%;
+	background: none;
+	margin-top: 0.5%;
+	border-radius: 0px 0px 25px 25px;
+	text-align: center;
+	color: red;
+	font-size: 50px;}
+/*this is responsive section*/
+@media screen and (max-width: 600px){
+	ul{flex-direction: column;}
+	ul li{width: 96%;margin: 1%;padding: 1%;}
+	section div{flex-direction: column;}
+	section div:first-child{width: 96%;margin: 1%;padding: 1%;}
+	section div:nth-child(2){width: 96%;margin: 1%;padding: 1%;}
+
+	header div{flex-direction: column;}
+	
+}
