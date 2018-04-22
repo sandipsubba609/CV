@@ -1,6 +1,18 @@
 body{margin: 0;
-background-image:url(image/f.jpg);
+background:url(image/background.jpg);
+background-repeat: no-repeat;
+background-size: 6000px;
 }/* this is the main part of the web page it includes my backgroung image*/
+
+header{
+	text-align: center;
+	color: blue;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 /*thisis the ul section*/
 ul{display: flex;
 	flex-direction: row;
@@ -25,14 +37,12 @@ ul li:hover{background: blue;}
 section {}
 /*this is the main section where entire passage is put*/
 h1{
-	color:red;
 	font-size: 50px;
 	text-align: center;
 }
 h2{
 	size:30px;
 	font-size: 30px;
-	color: blue;
 	padding-left: 15%;
 	padding-right: 15%;
 	padding-top: 2%;
@@ -40,7 +50,6 @@ h2{
 h3{
 	size:30px;
 	font-size: 30px;
-	color: blue;
 	padding-left: 15%;
 	padding-right: 15%;
 	padding-top: 2%;

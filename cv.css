@@ -1,7 +1,17 @@
 body{margin: 0;
-background-image:url(image/f.jpg);
+background:url(image/background.jpg);
+background-repeat: no-repeat;
+background-size: 6000px;
 }
 /*this is the body of cv*/
+
+header{
+	text-align: center;
+	color: blue;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 ul{display: flex;
 	flex-direction: row;
@@ -33,6 +43,15 @@ section {
 	padding-left: 10%;
 }
 /*this is the main section*/
+.sandip{
+	text-align: center;
+}
+section img{
+	border-radius: 30%;
+}
+section h1{
+	padding-bottom: 20px;
+}
 
 table, th, td {
     border: 1px solid black;

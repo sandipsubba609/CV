@@ -1,11 +1,19 @@
 body{margin: 0;
-background-image:url(image/f.jpg);
+background:url(image/background.jpg);
+background-repeat: no-repeat;
+background-size: 6000px;
 }
 /*this is the body*/
+header{
+	text-align: center;
+	color: blue;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
-
-ul{display: flex;
-	flex-direction: row;
+ul{display: flex;/*this code helps to make content display on column or row*/
+	flex-direction: row;/*this is the direction of content*/
 	text-decoration: none;
 	list-style: none;}
 /*this is the ul section*/
@@ -47,11 +55,11 @@ section div:nth-child(2){
 	width: 42%;
 	float:right;
 	font-size: 30px;
-	color: blue;}
+	}
 /*this is the second child*/	
 p {
 	size: 50px;
-	color: blue;
+	
 }
 /*this is the heading of second child*/
 footer{padding:4%;
@@ -75,10 +83,11 @@ footer{padding:4%;
 	section{
 		flex-direction:column;
 	}
-	section div:first-child{
-		width: 94%;
-		margin: 1%;
-		padding: 1%;}
+
+	section div img{
+		width: 200px;
+		height: 200px;
+	}
 	section div:nth-child(2){
 		width: 94%;
 		margin: 1%;
